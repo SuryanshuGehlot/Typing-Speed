@@ -44,6 +44,7 @@ textarea:focus{
 
 .mybtn:focus{
     outline: none;
+    border: 1px solid whitesmoke;
 }
 
 .mybtn{
