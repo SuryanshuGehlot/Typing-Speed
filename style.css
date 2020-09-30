@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mainDiv{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #443dcd;
+}
+
+h1::selection{
+    background: #e4e;
+    color: #fff;
+}
+
+.centerDiv{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+}
+
+#msg,#typed{
+    color: #fff;
+}
+
+textarea{
+    background: #333;
+}
+
+textarea::placeholder{
+    font-family: arial;
+}
+
+textarea:focus{
+    border: 1px solid whitesmoke;
+    outline: none;
+    background: #121212;
+    color: white;
+}
+
+.mybtn:focus{
+    outline: none;
+}
+
+.mybtn{
+    background: white;
+    padding: 8px;
+    font-size: 14px;
+    border: 2px solid #252562;
+    border-radius: 8px;
+    box-shadow: 2px 1px 3px #ccc;
+}
